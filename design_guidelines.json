@@ -1,0 +1,256 @@
+{
+  "project_name": "Pondok Pesantren Pulo Melati",
+  "archetype": "ARCHETYPE 1: ORGANIC & EARTHY (Nusantara Pesantren Dignity & Contemporary Islamic Warmth)",
+  "fusion_concept": "Classic Nusantara Pesantren warmth (deep pine green, warm sand/ivory, ochre gold filigree) + Swiss editorial information architecture + High-tactile modern glassmorphism (crystal nav, tactile fee matrix, status workflows)",
+  "target_audience": "Calon Santri & Wali Santri (Parents across Indonesia, mobile-heavy), Alumni, Simpatisan Pesantren, and Staff / Panitia PSB",
+  "language": "Indonesian (Bahasa Indonesia) with authentic pesantren terms (Tahfidz, Kitab Kuning, Pondok Modern & Salaf, Wali Santri, Gelombang PSB, Ustadz & Pengasuh)",
+  "design_tokens": {
+    "colors": {
+      "primary": "#134e3f",
+      "primary_hover": "#0c3b2f",
+      "primary_light": "#1d6f5a",
+      "accent_gold": "#d97706",
+      "accent_gold_soft": "#fef3c7",
+      "accent_amber": "#b45309",
+      "surface_base": "#fbfbf8",
+      "surface_card": "#ffffff",
+      "surface_card_warm": "#f7f6f0",
+      "surface_dark": "#0b201a",
+      "text_main": "#111827",
+      "text_muted": "#4b5563",
+      "text_subtle": "#6b7280",
+      "border_soft": "#e5e7eb",
+      "border_card": "#e2e8f0",
+      "status": {
+        "verified": "#15803d",
+        "pending": "#b45309",
+        "rejected": "#b91c1c"
+      }
+    },
+    "typography": {
+      "headline_font": "Cormorant Garamond, serif, or Playfair Display style editorial serif (loaded via Google Fonts @import: 'Cormorant Garamond' & 'Outfit' / 'Plus Jakarta Sans')",
+      "body_font": "Plus Jakarta Sans, sans-serif",
+      "arabic_accent_font": "Amiri, serif",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-white sm:leading-[1.1]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-tight text-slate-900",
+      "h3": "text-xl sm:text-2xl font-serif font-semibold text-slate-900",
+      "h4": "text-lg sm:text-xl font-sans font-semibold text-slate-800",
+      "eyebrow": "text-xs uppercase font-sans font-bold tracking-[0.2em] text-emerald-800 bg-emerald-50 border border-emerald-200/60 px-3 py-1 rounded-full inline-block"
+    },
+    "layout_modes": {
+      "public_landing": "Asymmetric Bento + Tetris Grid for Lembaga & Fasilitas, immersive hero with dual action (Daftar PSB & Telusuri Profil), live interactive fee calculator, gelombang timeline, and fast filterable gallery.",
+      "admin_dashboard": "High-Density Command Grid: Metric summary cards, tabbed views (Pendaftar PSB, Berita/Artikel, Galeri, Program, Pengajar, Testimoni), quick search, status action badges (Diverifikasi, Pending, Wawancara, Ditolak), and direct WhatsApp broadcast generator."
+    }
+  },
+  "image_assets": {
+    "hero_and_campus": {
+      "primary_hero": "https://images.unsplash.com/photo-1542414110-ae27fdb87ee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwzfHxtb3NxdWUlMjBhcmNoaXRlY3R1cmUlMjBkb21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzkwNjg4MTEyfDA&ixlib=rb-4.1.0&q=85",
+      "campus_white_mosque": "https://images.unsplash.com/photo-1521241191669-b9fba071b073?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHw0fHxtb3NxdWUlMjBhcmNoaXRlY3R1cmUlMjBkb21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzkwNjg4MTEyfDA&ixlib=rb-4.1.0&q=85",
+      "dome_ornament": "https://images.unsplash.com/photo-1558114965-eeb97aa84c3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwxfHxtb3NxdWUlMjBhcmNoaXRlY3R1cmUlMjBkb21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzkwNjg4MTEyfDA&ixlib=rb-4.1.0&q=85",
+      "grand_hall": "https://images.unsplash.com/photo-1698967406711-ede239b6c07e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwyfHxtb3NxdWUlMjBhcmNoaXRlY3R1cmUlMjBkb21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzkwNjg4MTEyfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "santri_and_kegiatan": {
+      "santri_mengaji_halaqah": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwyfHxpc2xhbWljJTIwc2Nob29sJTIwc3R1ZGVudCUyMHF1cmFufGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "santri_tahfidz_mosque": "https://images.unsplash.com/photo-1712249239085-2161afc54d60?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxpc2xhbWljJTIwc2Nob29sJTIwc3R1ZGVudCUyMHF1cmFufGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "santri_cilik_duo": "https://images.unsplash.com/photo-1589995635011-078e0bb91d11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxpc2xhbWljJTIwc2Nob29sJTIwc3R1ZGVudCUyMHF1cmFufGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "quran_and_rehal": "https://images.unsplash.com/photo-1624489389801-09bb319beae6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxpc2xhbWljJTIwc2Nob29sJTIwc3R1ZGVudCUyMHF1cmFufGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85"
+    },
+    "pengasuh_and_ustadz": {
+      "kh_pengasuh": "https://images.unsplash.com/photo-1627091908405-30bd51eec537?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwyfHxtdXNsaW0lMjB0ZWFjaGVyJTIwc2Nob2xhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "ustadzah_tahfidz": "https://images.unsplash.com/photo-1634451784126-b9f7282edb1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxtdXNsaW0lMjB0ZWFjaGVyJTIwc2Nob2xhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "ustadz_muda_quran": "https://images.unsplash.com/photo-1629131973019-56596eb9975a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHw0fHxtdXNsaW0lMjB0ZWFjaGVyJTIwc2Nob2xhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85",
+      "ustadz_bahasa": "https://images.unsplash.com/photo-1680692138250-9dfcbd9c67be?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwzfHxtdXNsaW0lMjB0ZWFjaGVyJTIwc2Nob2xhciUyMHBvcnRyYWl0fGVufDB8fHx8MTc5MDY4ODEwOHww&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "sections_breakdown": {
+    "navbar": {
+      "style": "Crystal Glassmorphism with solid backing (backdrop-blur-xl bg-white/90 border-b border-emerald-900/10 shadow-sm sticky top-0 z-50)",
+      "elements": [
+        "Brand Logo badge (Green crescent & Jasmine blossom motif)",
+        "Title: Pondok Pesantren Pulo Melati (Sub: Membina Generasi Qur'ani Berakhlak Mulia)",
+        "Desktop Links: Beranda, Profil & Visi, Lembaga & Program, Fasilitas, Galeri, Berita, Biaya & Jadwal PSB, Kontak",
+        "CTA Button: Daftar PSB 2026/2027 (Emerald pill with gold ring hover)",
+        "Admin Portal quick-key / Login button (data-testid='nav-admin-login-link')"
+      ]
+    },
+    "hero": {
+      "headline": "Mendidik Karakter Qur'ani, Mengakar Tradisi, Membuka Cakrawala Dunia",
+      "subheadline": "Penerimaan Santri Baru (PSB) Tahun Ajaran 2026/2027 Telah Dibuka. Bergabunglah bersama 1.250+ santri dalam perpaduan kurikulum Tahfidz, Kitab Kuning, Sains, dan Bahasa Internasional di lingkungan asri Pulo Melati.",
+      "cta_primary": {
+        "text": "Daftar Santri Baru (PSB Online)",
+        "testid": "hero-register-cta-button"
+      },
+      "cta_secondary": {
+        "text": "Pelajari Profil & Kurikulum",
+        "testid": "hero-explore-cta-button"
+      },
+      "announcement_pill": "Gelombang 2 PSB dibuka s/d 30 April 2026 • Kuota Asrama Terbatas"
+    },
+    "stats_counter": {
+      "items": [
+        { "label": "Tahun Berdiri & Mengabdi", "value": "1994", "suffix": "M", "icon": "Clock" },
+        { "label": "Santri Mukim Aktif", "value": "1280", "suffix": "+", "icon": "Users" },
+        { "label": "Alumni Tersebar Global", "value": "4500", "suffix": "+", "icon": "GraduationCap" },
+        { "label": "Asatidz & Pengajar Ahli", "value": "78", "suffix": "Guru", "icon": "Award" }
+      ]
+    },
+    "profil_visi_misi": {
+      "profil_text": "Pondok Pesantren Pulo Melati didirikan atas restu para sesepuh ulama Nusantara dengan komitmen melahirkan santri yang tafaqquh fiddin, mandiri, dan berwawasan masa depan. Memadukan kedalaman kajian Turats Salafiyah dengan keunggulan sains modern.",
+      "visi": "Menjadi episentrum peradaban santri yang kokoh dalam tauhid, mutqin dalam Al-Qur'an, unggul dalam adab dan sains, serta memimpin perubahan ummat.",
+      "misi_points": [
+        "Menyelenggarakan halaqah Tahfidzul Qur'an 30 Juz bersanad muttashil.",
+        "Mengkaji kitab-kitab turats mu'tabarah secara komprehensif (nahwu, sharaf, fiqh, tasawwuf).",
+        "Menanamkan budaya bilingual (Arab & Inggris) sebagai bahasa komunikasi harian.",
+        "Membekali santri dengan kecakapan teknologi, kepemimpinan, dan kewirausahaan mandiri."
+      ]
+    },
+    "lembaga_dan_program": {
+      "items": [
+        { "id": "mts", "name": "MTs Pulo Melati (Madrasah Tsanawiyah)", "badge": "Akreditasi A", "desc": "Pendidikan menengah formal 3 tahun mengintegrasikan kurikulum Kemenag dengan kepesantrenan intensif." },
+        { "id": "ma", "name": "MA Sains & Humaniora Pulo Melati", "badge": "Unggulan", "desc": "Persiapan matang menuju perguruan tinggi ternama (PTKIN, PTN, Al-Azhar Kairo, Turki) dengan peminatan IPA & Keagamaan." },
+        { "id": "tahfidz", "name": "Madrasah Tahfidzul Qur'an (MTQ)", "badge": "Khusus 30 Juz", "desc": "Program karantina hafalan intensif dengan target mutqin 30 juz berijazah sanad dan tartil qira'ah." },
+        { "id": "kulliyatul_muallimin", "name": "Kulliyatul Mu'allimin Al-Islamiyah (KMI)", "badge": "Tradisi & Modern", "desc": "Kaderisasi calon guru, da'i, dan cendekiawan muslim dengan penguasaan metodologi pengajaran dan retorika dakwah." }
+      ]
+    },
+    "fasilitas_dan_kegiatan": {
+      "facilities": [
+        "Masjid Jami' Berkapasitas 2.000 Jamaah",
+        "Asrama Santri Putra & Putri Terpisah & Berpagar Asri",
+        "Laboratorium Komputer & Bahasa Digital",
+        "Perpustakaan Khazanah Turats & Buku Modern",
+        "Poskestren (Pos Kesehatan Pesantren) Siaga 24 Jam",
+        "Sarana Olahraga: Lapangan Futsal, Voli, Memanah & Silat"
+      ],
+      "daily_activities": [
+        { "time": "03.30 - 04.30", "activity": "Qiyamul Lail, Muraja'ah Tahfidz & Sholat Subuh Berjamaah" },
+        { "time": "05.00 - 06.30", "activity": "Kajian Kitab Kuning Pagi / Halaqah Sorogan" },
+        { "time": "07.00 - 14.30", "activity": "Kegiatan Belajar Formal Madrasah (MTs/MA)" },
+        { "time": "15.30 - 17.00", "activity": "Ekstrakurikuler, Muhadatsah Bahasa, & Olahraga" },
+        { "time": "18.00 - 20.30", "activity": "Maghrib, Dzikir Ratib, Halaqah Qur'an, Isya & Sorogan Malam" },
+        { "time": "21.00 - 22.00", "activity": "Belajar Mandiri / Ta'lim Ta'lim, Istirahat Santri" }
+      ]
+    },
+    "psb_module": {
+      "schedules": [
+        { "gelombang": "Gelombang 1 (Jalur Prestasi & Beasiswa)", "periode": "1 Nov 2025 - 31 Jan 2026", "status": "Selesai", "kuota": "120 Santri" },
+        { "gelombang": "Gelombang 2 (Reguler)", "periode": "1 Feb 2026 - 30 Apr 2026", "status": "Dibuka Sekarang", "kuota": "180 Santri (Sisa 42 Kursi)" },
+        { "gelombang": "Gelombang 3 (Sisa Kuota)", "periode": "1 Mei 2026 - 20 Jun 2026", "status": "Akan Datang", "kuota": "Jika kuota masih tersedia" }
+      ],
+      "tahapan": [
+        { "step": "01", "title": "Pendaftaran Online", "desc": "Isi formulir biodata calon santri & orang tua pada formulir PSB di bawah ini." },
+        { "step": "02", "title": "Verifikasi Berkas", "desc": "Panitia memvalidasi data dan mengonfirmasi jadwal tes melalui WhatsApp panitia." },
+        { "step": "03", "title": "Ujian Masuk & Wawancara", "desc": "Tes membaca Al-Qur'an, dasar bahasa & wawancara komitmen orang tua (online/offline)." },
+        { "step": "04", "title": "Pengumuman & Daftar Ulang", "desc": "Pengumuman kelulusan serta penyelesaian administrasi seragam & asrama." }
+      ],
+      "biaya_table": [
+        { "komponen": "Infaq Pembangunan Asrama & Sarpras", "sekali": "Rp 3.500.000", "keterangan": "Hanya saat awal masuk (dapat diangsur 3x)" },
+        { "komponen": "Seragam Lengkap (5 Stel + Atribut)", "sekali": "Rp 950.000", "keterangan": "Baju koko, gamis/jilbab, pramuka, olahraga, batik" },
+        { "komponen": "Paket Kitab Pelajaran & Buku Modul Setahun", "sekali": "Rp 750.000", "keterangan": "Kitab matan, kamus, dan buku kurikulum Kemenag" },
+        { "komponen": "SPP Bulanan (Makan 3x Sehari, Asrama, Listrik, Pendidikan)", "bulanan": "Rp 850.000 / bln", "keterangan": "Semua fasilitas asrama, laundry ringan, dan pembinaan" }
+      ],
+      "interactive_calculator": {
+        "label": "Simulasi Estimasi Biaya Awal Masuk",
+        "options": [
+          { "program": "MTs Pulo Melati (Reguler)", "base": 6050000 },
+          { "program": "MA Sains & Agama (Reguler)", "base": 6350000 },
+          { "program": "Takhassus Tahfidz 30 Juz", "base": 5850000 }
+        ]
+      }
+    },
+    "registration_form": {
+      "fields": [
+        { "name": "nama_lengkap", "label": "Nama Lengkap Calon Santri", "type": "text", "required": true, "placeholder": "Contoh: Muhammad Fayyadh Al-Farisi" },
+        { "name": "nik", "label": "NIK Calon Santri", "type": "text", "required": true, "placeholder": "16 digit NIK sesuai KK" },
+        { "name": "jenis_kelamin", "label": "Jenis Kelamin", "type": "select", "options": ["Laki-laki (Santriawan)", "Perempuan (Santriwati)"], "required": true },
+        { "name": "tempat_tanggal_lahir", "label": "Tempat & Tanggal Lahir", "type": "text", "required": true, "placeholder": "Jakarta, 14 Mei 2012" },
+        { "name": "program_tujuan", "label": "Jenjang Program yang Dituju", "type": "select", "options": ["MTs Pulo Melati", "MA Sains & Humaniora", "Takhassus Tahfidz 30 Juz", "KMI (Kulliyatul Muallimin)"], "required": true },
+        { "name": "asal_sekolah", "label": "Asal Sekolah / Madrasah", "type": "text", "required": true, "placeholder": "Contoh: SDN Pulo Gebang 01 / MI Nurul Huda" },
+        { "name": "nama_wali", "label": "Nama Lengkap Ayah / Ibu / Wali", "type": "text", "required": true, "placeholder": "Nama orang tua/wali santri" },
+        { "name": "nomor_whatsapp", "label": "Nomor WhatsApp Wali (Aktif)", "type": "tel", "required": true, "placeholder": "081234567890" },
+        { "name": "alamat_domisili", "label": "Alamat Lengkap Domisili", "type": "textarea", "required": true, "placeholder": "Jalan, RT/RW, Kelurahan, Kecamatan, Kota/Kabupaten, Provinsi" },
+        { "name": "hafalan_sekarang", "label": "Capaian Hafalan Al-Qur'an Terakhir", "type": "select", "options": ["Belum ada (Baru Iqro/Juz Amma)", "1 - 2 Juz", "3 - 5 Juz", "Lebih dari 5 Juz"], "required": true },
+        { "name": "catatan_kesehatan", "label": "Riwayat Alergi / Catatan Khusus (Opsional)", "type": "text", "required": false, "placeholder": "Jika ada riwayat asma, alergi makanan, dll." }
+      ],
+      "actions": {
+        "submit_button": "Kirim Pendaftaran Santri Baru",
+        "testid": "psb-submit-registration-button",
+        "whatsapp_confirm_link": "Kirim Notifikasi via WhatsApp Panitia"
+      }
+    },
+    "admin_dashboard_module": {
+      "auth": "JWT-based authentication with demo-friendly direct access and preset credentials ('admin' / 'pesantren123')",
+      "crud_features": [
+        "Pendaftar PSB: View submissions list, filter by status (Pending, Terverifikasi, Ujian Masuk, Diterima, Ditolak), update status, search by name/whatsapp, download or print tanda bukti pendaftaran, and open direct WhatsApp chat with prospective parents.",
+        "Manajemen Berita & Artikel: Add, edit, delete news articles with title, category (Kegiatan, Prestasi, Ta'lim, Info PSB), content, date, and image.",
+        "Manajemen Galeri Foto: Add, filter, delete photos with category (Kegiatan, Santri, Fasilitas, Acara).",
+        "Manajemen Program Pendidikan: Edit nama program, deskripsi kurikulum, dan akreditasi.",
+        "Manajemen Pengasuh & Ustadz: CRUD data dewan pengajar, spesialisasi keilmuan, dan foto.",
+        "Manajemen Testimoni: CRUD testimoni wali santri dan alumni sukses.",
+        "Stat Counters Editor: Live update angka Santri, Alumni, Asatidz, dan Tahun berdiri."
+      ]
+    }
+  },
+  "interactive_moments": [
+    "Quick WhatsApp Floating Chat Button (deep-link with prefilled text 'Assalamu'alaikum Panitia PSB Pulo Melati, saya ingin bertanya tentang...')",
+    "Filterable Media Gallery with instant tab switches (Semua, Kegiatan, Santri, Fasilitas, Acara)",
+    "News reader detail modal / dedicated route so prospective parents can read real updates about pondok activities",
+    "Instant Search and Status Filter inside the Admin PSB Management table",
+    "Export / Print Proof of Registration (Tanda Bukti Pendaftaran PSB) with generated registration number e.g. 'PSB-2026-089'",
+    "Toggle between Public View and Admin Dashboard effortlessly"
+  ],
+  "accessibility_and_testing": {
+    "data_testids": [
+      "nav-brand-logo",
+      "nav-link-profil",
+      "nav-link-program",
+      "nav-link-fasilitas",
+      "nav-link-galeri",
+      "nav-link-berita",
+      "nav-link-psb",
+      "nav-link-kontak",
+      "nav-admin-login-link",
+      "hero-register-cta-button",
+      "hero-explore-cta-button",
+      "hero-whatsapp-consult-button",
+      "stat-counter-santri",
+      "stat-counter-alumni",
+      "stat-counter-asatidz",
+      "gallery-filter-all",
+      "gallery-filter-kegiatan",
+      "gallery-filter-santri",
+      "gallery-filter-fasilitas",
+      "gallery-filter-acara",
+      "psb-gelombang-badge",
+      "psb-calculator-select",
+      "psb-form-nama-lengkap",
+      "psb-form-nik",
+      "psb-form-jenis-kelamin",
+      "psb-form-program",
+      "psb-form-wali",
+      "psb-form-whatsapp",
+      "psb-form-alamat",
+      "psb-form-hafalan",
+      "psb-submit-registration-button",
+      "psb-success-dialog",
+      "psb-success-whatsapp-button",
+      "admin-login-username-input",
+      "admin-login-password-input",
+      "admin-login-submit-button",
+      "admin-tab-psb",
+      "admin-tab-berita",
+      "admin-tab-galeri",
+      "admin-tab-program",
+      "admin-tab-pengajar",
+      "admin-tab-stats",
+      "admin-psb-status-select",
+      "admin-add-berita-button"
+    ]
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "mobile_first": "Prospective parents in Indonesia browse mostly on mobile devices (Android/iOS). Ensure touch targets >= 44px, sticky header is light & crisp, and form inputs are legible with clear labels.",
+    "color_harmony": "Use Deep Forest Green (#134e3f) with Warm Sand / Ivory surfaces, accented with Warm Amber/Gold (#d97706) for Islamic heritage dignity. Avoid harsh artificial neon colors or generic cold SaaS blue.",
+    "contrast_integrity": "Never use pure transparent backgrounds on sticky navigation or dropdowns. Use 'bg-white/95 backdrop-blur-md' with subtle 1px border. All text on dark emerald backgrounds must be crisp white (#ffffff) or soft gold (#fef3c7).",
+    "whatsapp_integration": "Make WhatsApp deep-links authentic and functional: 'https://wa.me/6281234567890?text=Assalamu%27alaikum%20Panitia%20PSB%20Pondok%20Pesantren%20Pulo%20Melati...' so wali santri can instantly consult.",
+    "data_persistence": "Store registrations, articles, gallery items, and testimonials in modern React state + localStorage (and backend API if connected) so testing can see newly submitted registrations appear immediately inside the Admin Dashboard table."
+  }
+}
